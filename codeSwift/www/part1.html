@@ -17,11 +17,12 @@
 var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 function preload() {
-
-    game.load.image('sky', 'https://raw.githubusercontent.com/photonstorm/phaser/master/v2/resources/tutorials/02%20Making%20your%20first%20game/assets/sky.png');
-    game.load.image('ground', 'https://raw.githubusercontent.com/photonstorm/phaser/master/v2/resources/tutorials/02%20Making%20your%20first%20game/assets/platform.png');
-    game.load.image('star', 'https://raw.githubusercontent.com/photonstorm/phaser/master/v2/resources/tutorials/02%20Making%20your%20first%20game/assets/star.png');
-    game.load.spritesheet('dude', 'https://raw.githubusercontent.com/photonstorm/phaser/master/v2/resources/tutorials/02%20Making%20your%20first%20game/assets/dude.png', 32, 48);
+    game.load.baseURL = 'https://raw.githubusercontent.com/photonstorm/phaser/master/v2/resources/tutorials/02%20Making%20your%20first%20game/assets/';
+    game.load.crossOrigin = 'anonymous';
+    game.load.image('sky', 'sky.png');
+    game.load.image('ground', 'platform.png');
+    game.load.image('star', 'star.png');
+    game.load.spritesheet('dude', 'dude.png', 32, 48);
 
 }
 
