@@ -3,3 +3,9 @@ title: Simple Swift template
 plan:
   - title: Swift Snippet
     statement: statement.md
+projects:
+  my-playground:
+    root: /codeSwift
+    runner:
+       name: swiftdocker/swift
+       version: 3.1
