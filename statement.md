@@ -5,6 +5,7 @@ This Swift template lets you get started quickly with a simple one-page playgrou
 ```swift runnable
 print("Hello World!")
 ```
+@[Fix the following code so that the function sum returns a sum of integer]({"stubs": ["src/test.swift"], "command": "swift src/test.swift","project": "my-playground"})
 
 # Advanced usage
 
