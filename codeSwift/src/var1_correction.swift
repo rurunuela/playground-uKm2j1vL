@@ -26,5 +26,6 @@ else {
    print("TECHIO> success false")
 }
 
-print("TECHIO> message hello world")
-exit(1)
+print("TECHIO> message \(chaine)")
+print("TECHIO> message \(a)")
+//exit(1)
