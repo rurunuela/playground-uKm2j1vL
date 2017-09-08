@@ -22,7 +22,7 @@ a = 88
 // maintenant, "a" a une valeur de 88.
 ```
 
-@[Fix the following code so that the function sum returns a sum of integer]({"stubs": ["src/var1.swift"], "command": "swift src/var1.swift,"project": "my-playground"})
+@[Fix the following code so that the function sum returns a sum of integer]({"stubs": ["src/var1.swift"], "command": "swift src/var1.swift","project": "my-playground"})
 
 @[Remplissez les blancs pour déclarer une variable nommée "test" avec la valeur initiale "Bonjour", puis affectez-la à la valeur "J'aime Swift!.
 ]({"stubs": ["src/var1.swift"], "command": "swiftc var1c.swift -o test; swiftc var1_correction.swift -o test1 ; ./test | ./test1  resv1.txt","project": "my-playground"})
