@@ -10,3 +10,11 @@ print("Hello World!")
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Swift template](https://tech.io/select-repo/575)
+
+
+lancer docker :
+docker run -d -P -v /Users/richardurunuela/Documents/travail/Projet/tech-io/swift-apprendre/playground-uKm2j1vL/codeSwift:/user/richard  -t d60e29cce867  /bin/bash
+
+
+docker run -v /Users/richardurunuela/Documents/travail/Projet/tech-io/swift-apprendre/playground-uKm2j1vL/codeSwift:/user/richard -i  -t d60e29cce867  /bin/bash
+

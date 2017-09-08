@@ -3,6 +3,8 @@ title: Simple Swift template
 plan:
   - title: Swift Snippet
     statement: statement.md
+  - title: 
+    statement: cours/var1.md
 projects:
   my-playground:
     root: /codeSwift
