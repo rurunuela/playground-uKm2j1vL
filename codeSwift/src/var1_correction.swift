@@ -18,13 +18,13 @@ let chaine = String(data: databuffer!, encoding: String.Encoding.utf8) as String
 
 
 if (chaine == a) {
-    //print("TECHIO>success true")
+    print("TECHIO> success true")
     
 
 }
 else {
-    //print("TECHIO>success false")
+   print("TECHIO> success false")
 }
-print("TECHIO> success false")
+
 print("TECHIO> message hello world")
 exit(1)
