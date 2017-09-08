@@ -24,7 +24,7 @@ a = 88
 
 @[Fix the following code so that the function sum returns a sum of integer]({"stubs": ["src/var1.swift"], "command": "swift src/var1.swift","project": "my-playground"})
 
-@[Remplissez les blancs pour déclarer une variable nommée test avec la valeur initiale Bonjour, puis affectez-la à la valeur "i Love swift".]({"stubs": ["src/var1.swift"], "command": "./src/cmd1.sh","project": "my-playground"})
+@[Remplissez les blancs pour déclarer une variable nommée test avec la valeur initiale Bonjour, puis affectez-la à la valeur "i Love swift".]({"stubs": ["src/var1.swift"], "command": "/bin/bash ./src/cmd1.sh","project": "my-playground"})
 
 —- test  - « Hi » 
 —- = « i Love swift » 
