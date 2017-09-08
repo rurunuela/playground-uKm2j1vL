@@ -1,5 +1,4 @@
 import Foundation
-print("OK" )
 let a = readLine()
 if let b = a {
    // print("---- \(b)")
