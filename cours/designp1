@@ -1,0 +1,13 @@
+Design pattern - Creation  : le singleton 
+
+
+L’objectif du pattern SINGLETON est de garantir qu’une classe ne possède qu’une seule instance et de fournir un point d’accès global à celle-ci.
+Il est plus simple d'explique le mecanisme du singleton que sa finalité.
+Ce pattern appartient à la famille des pattern de création.
+
+Exemple 
+
+
+Modifiez ce code de façon à ce qu'il fonctionne. 
+Attention on utilise un test unitaire dont un exemple est donné en entête du programme.
+
