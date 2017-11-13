@@ -18,7 +18,7 @@ let chaine = String(data: databuffer!, encoding: String.Encoding.utf8) as String
 
 
 if (chaine == a) {
-    print("TECHIO> success true")
+// print("TECHIO> success true")
     
 
 }
