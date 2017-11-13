@@ -1,8 +1,8 @@
 title: Cours agorithmie 1 RIL - swift
 
 plan:
-  - title: Variable et affectation 
-    statement: cours/var1.md
+  - title: Porte monnaie 
+    statement: exercices/exo1.md
 projects:
   my-playground:
     root: /codeSwift
