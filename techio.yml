@@ -1,9 +1,7 @@
-title: Simple Swift template
+title: Cours agorithmie 1 RIL - swift
 
 plan:
-  - title: Swift Snippet
-    statement: statement.md
-  - title: 
+  - title: Variable et affectation 
     statement: cours/var1.md
 projects:
   my-playground:
